@@ -1,1 +1,1 @@
-# -magento2-cronjob-delete-24hrs-old-orders
+# magento2-cronjob-delete-24hrs-old-orders
