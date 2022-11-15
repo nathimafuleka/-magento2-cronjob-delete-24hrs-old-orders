@@ -18,7 +18,22 @@ Run this command
 php bin/magento module:enable CronModule_Cronjob
 php bin/magento setup:upgrade
 ```
+Run the indexing cron job
+```
+bin/magento cron:run --group index
+```
+Run the default cron job
+```
+bin/magento cron:run --group default
+```
+and clear cache 
 
+```
+php bin/magento c:c
+php bin/magento c:f
+
+```
 # Features
+
 <li>Delete all orders that are 24 hours old </li>
 <li> Schedule to run cron midnight </li>
