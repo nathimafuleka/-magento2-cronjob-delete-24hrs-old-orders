@@ -1,4 +1,4 @@
-# magento2 cronjob delete orders that are 24hrs old
+# magento2 cronjob cancel orders that are 24hrs old
 Module CronModule_Cronjob allows you to:
 
 cancel old orders that taking space in your system. You can customize the schedule time of your cron job
