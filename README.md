@@ -35,5 +35,5 @@ php bin/magento c:f
 ```
 # Features
 
-<li>Delete all orders that are 24 hours old </li>
+<li>Cancel all orders that are 24 hours old with status of pending_payment</li>
 <li> Schedule to run cron midnight </li>
